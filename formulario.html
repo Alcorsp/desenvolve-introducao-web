@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercícios formulários</title>
+    </head>
+    <body>
+        <h1>Pesquisa de satisfação</h1>
+        <form action="agent_headquarters.html" method="post">
+            <section>
+                <h2>Dados pessoais</h2>
+                <p>
+                    <Label for="nome">Nome:</Label>
+                    <input type="text" placeholder="Seu nome" id="nome" />
+                </p>
+                <p>
+                    <Label for="email">Email:</Label>
+                    <input type="email" placeholder="Seu email" id="email" />
+                </p>
+                <p>
+                    <Label for="telefone">Tel.:</Label>
+                    <input type="tel" placeholder="Telefone para contato" id="telefone" />
+                </p>
+            </section>
+            <section>
+                <h2>Questionário</h2>
+                <p>
+                    Você gostou dos nossos serviços?
+                    <br>
+                    <input type="radio" id="muito" name="Gostou?" />
+                    <label for="muito">Gostei muito!</label>
+                    <input type="radio" id="pouco" name="Gostou?" />
+                    <label for="pouco">Um pouco.</label>
+                    <input type="radio" id="não" name="Gostou?" />
+                    <label for="não">Não gostei.</label>
+                </p>
+                <p>
+                    2- Qual pílula você escolheu?
+                    <br>
+                    <input type="radio" id="azul" name="Pil?" />
+                    <label for="azul">Azul.</label>       
+                    <input type="radio" id="vermelha" name="Pil?" />
+                    <label for="vermelha">Vermelha.</label>      
+                    <input type="radio" id="both" name="Pil?" />
+                    <label for="both">As duas!</label>
+                </p>
+                <p>
+                    3- Usária os nossos serviços novamente?
+                    <br>
+                    <select>
+                        <option>Sim, com certeza! Dessa vez quero ser alguém rico. (Apaguem minhas memórias!)</option>
+                        <option>Infelizmente sim, preciso liberar outros da máquina.</option>
+                        <option>Não, agora que escapei serei piloto de nave!</option>
+                        <option>Não!! Alguém me tire daqui!!!</option>
+                    </select>
+                </p>   
+                <p>
+                    <input type="checkbox" id="autorização" />
+                    <label  for="autorização">Autorizo compartilhar dados com terceiros.</label>
+                </p>
+            </section>
+            <input type="submit" value="Enviar" />    
+        </form>
+    </body>
+</html>
